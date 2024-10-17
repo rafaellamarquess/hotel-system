@@ -1,0 +1,14 @@
+{
+  "reservas": [
+    {
+      "id": "7648",
+      "nome": "Rafaella Marques Farias",
+      "email": "fariassrafaella@gmail.com",
+      "dataEntrada": "2024-10-17",
+      "dataSaida": "2024-10-24",
+      "observacoes": "observação 1",
+      "adultos": "2",
+      "criancas": "0"
+    }
+  ]
+}

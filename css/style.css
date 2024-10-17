@@ -1,0 +1,69 @@
+/* Estilo para espaçamento entre as seções */
+section {
+    padding: 80px 0;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-text p {
+    font-size: 1.5rem;
+  }
+  
+  .hero-image img {
+    max-width: 500px;
+    height: auto;
+  }
+  
+  /* Features Section */
+  .features-section h2 {
+    margin-bottom: 40px;
+  }
+  
+  .feature-item {
+    text-align: center;
+  }
+  
+  .feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  
+  /* Room Options Section */
+  .room-options h2 {
+    margin-bottom: 40px;
+  }
+  
+  .room-options img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .room-options p {
+    margin-top: 10px;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #f8f9fa;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  footer form input,
+  footer form select,
+  footer form textarea {
+    margin-bottom: 10px;
+  }
+  

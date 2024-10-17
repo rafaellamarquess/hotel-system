@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Senac</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Hotel Senac</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reservas.html">Reservas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section container">
+    <div class="hero-text">
+      <h1>Sinta o conforto acolhedor de nossas hospedagens</h1>
+      <p>Hospede-se nos nossos hotéis com quartos a partir de R$ 100,00.</p>
+      <a href="#" class="btn btn-primary">Saiba mais</a>
+    </div>
+    <div class="hero-image">
+      <img src="assets/hotel.jpg" alt="Hotel" class="img-fluid">
+    </div>
+  </section>
+
+  <section class="features-section container text-center">
+    <h2>Por que se hospedar em nossos hotéis?</h2>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="feature-item">
+          <i class="bi bi-cup feature-icon"></i>
+          <h3>Delicioso café da manhã</h3>
+          <p>Incluso em todas as diárias</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="feature-item">
+          <i class="bi bi-geo-alt feature-icon"></i>
+          <h3>Fácil acesso</h3>
+          <p>Perto dos principais pontos turísticos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="room-options container">
+    <h2 class="text-center">Nossas Opções de Quartos</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <img src="assets/solteiro.jpg" alt="Suite Solteiro">
+        <p class="text-center">Suíte Solteiro</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/casal.jpg" alt="Suite Casal">
+        <p class="text-center">Suíte Casal</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/master.jpg" alt="Suite Master">
+        <p class="text-center">Suíte Master</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Faça sua reserva. Entre em contato conosco informando as datas desejadas. Lhes retornaremos informando a disponibilidade e repassando detalhes da reserva.</p>
+        </div>
+        <div class="col-md-6">
+          <form id="reservaForm" class="row g-3">
+            <div class="col-md-6">
+              <input type="text" id="nome" class="form-control" placeholder="Nome" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" class="form-control" placeholder="E-mail" required>
+            </div>
+            <div class="col-md-6">
+              <input type="date" id="dataEntrada" class="form-control" placeholder="Data de Entrada" required>
+            </div>
+            <div class="col-md-6">
+              <input type="date" id="dataSaida" class="form-control" placeholder="Data de Saída" required>
+            </div>
+            <div class="col-md-12">
+              <textarea id="observacoes" class="form-control" placeholder="Observações"></textarea>
+            </div>
+            <div class="col-md-6">
+              <input type="number" id="adultos" class="form-control" placeholder="Adultos" min="1" required>
+            </div>
+            <div class="col-md-6">
+              <input type="number" id="criancas" class="form-control" placeholder="Crianças" min="0" required>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/formulario.js"></script>
+
+</body>
+</html>
